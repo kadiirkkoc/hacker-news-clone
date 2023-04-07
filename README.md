@@ -1,0 +1,1 @@
+I am going to code hacker news clone
