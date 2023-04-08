@@ -1,3 +1,4 @@
+import Item from "./pages/item.js"
 import Stories from "./pages/stories.js"
 
 
@@ -18,7 +19,8 @@ export default class RouterHandler{
             {path: "/" , page : Stories},
             {path: "/new" , page : Stories},
             {path: "/ask" , page : Stories},
-            {path: "/show" , page : Stories}
+            {path: "/show" , page : Stories},
+            {path: "/item" , page : Item}
         ];
 
         routes.forEach(({path,page}) => {
