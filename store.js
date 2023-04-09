@@ -31,11 +31,7 @@ function favoritesReducer(state = initialState , action){
         }
         default :
          return state
-            
-
     }
-
-
 }
 
 
